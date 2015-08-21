@@ -3,8 +3,8 @@
 ## time, it is stored in the object, and can be recalled rather than recalculated
 ## the next time its value is required.
 
-## makeCacheMatrix instantiates an object comprising a list of functions to set and
-## retrieve the matrix value, and cache and retrieve the inverse matrix
+## makeCacheMatrix instantiates an object containing the matrix and a list of functions
+## to set and retrieve the matrix, and cache and retrieve its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
 	inverse<-NULL
